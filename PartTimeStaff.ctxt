@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PartTimeStaff
+comment0.text=\r\n\ description\ here.\r\n\r\n\ @author\ (Kevin)\r\n\ @version\ (1.3)\r\n
+comment1.params=vacancyNumber\ designation\ jobType\ staffName\ joinDate\ qualification\ appointedBy\ joined\ workingHour\ wagesPerHour\ shifts
+comment1.target=PartTimeStaff(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean,\ int,\ double,\ java.lang.String)
+comment2.params=workingHour
+comment2.target=void\ setWorkingHour(int)
+comment3.params=wagesPerHour
+comment3.target=void\ setWagesPerHour(double)
+comment4.params=shifts
+comment4.target=void\ setShifts(java.lang.String)
+comment5.params=
+comment5.target=void\ display()
+comment6.params=
+comment6.target=void\ terminate()
+numComments=7
