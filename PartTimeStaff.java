@@ -50,9 +50,9 @@
          System.out.println("Has person joined?: " + joined);
          if (isJoined())
          {
-             System.out.println("Shifts:" +shifts);
+             System.out.println("Shifts:" + shifts);
              System.out.println("Working Hours: " + workingHour);
-             System.out.println("Wages per hour: " +wagesPerHour);
+             System.out.println("Wages per hour: " + wagesPerHour);
          }
      }
 
