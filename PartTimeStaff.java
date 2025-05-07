@@ -64,12 +64,15 @@
      }
      else
      {
-         setStaffName("");
-         setJoinDate("");
-         setQualification("");
-         setAppointedBy("");
-         setJoined(false);
-         terminated = true;
+        terminated = true;
+        setDesignation("");
+        setJobType("");
+        setStaffName("");
+        setJoinDate("");
+        setQualification("");
+        setAppointedBy("");
+        setJoined(false);
+        setShifts("");
      }
      }
  
