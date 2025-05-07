@@ -12,6 +12,7 @@
  
      public FullTimeStaff(int vacancyNumber, String designation, String jobType, String staffName, String joinDate, String qualification, String appointedBy, boolean joined, double salary, int weeklyFractionalHours) {
          super(vacancyNumber, designation, jobType, staffName, joinDate, qualification, appointedBy, joined);
+         this.weeklyFractionalHours = weeklyFractionalHours;
      }
  
      public void setSalary(double salary)
@@ -21,13 +22,8 @@
              this.salary = salary;
          }
          else{
-             System.out.println("There is no staff appointd to set the salary.");
+             System.out.println("There is no staff appointed to set the salary.");
          }
-     }
- 
-     public void setWeeklyFractionalHours(int weeklyFractionalHours)
-     {
-         this.weeklyFractionalHours = weeklyFractionalHours;
      }
  
      public void display()
@@ -42,8 +38,8 @@
          System.out.println("Has person joined?: " + joined);
          if (isJoined())
          {
-             System.out.println("Salary: " + salary);
-             System.out.println("Weekly Fraction Hours: " + weeklyFractionalHours);
+             System.out.println("Salary: £ " + salary);
+             System.out.println("Weekly Fractional Hours: " + weeklyFractionalHours);
          }
      }
  }
