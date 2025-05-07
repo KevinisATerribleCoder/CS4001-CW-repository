@@ -10,7 +10,7 @@
      private double salary;
      private int weeklyFractionalHours;
  
-     public FullTimeStaff(int vacancyNumber, String designation, String jobType, String staffName, String joinDate, String qualification, String appointedBy, boolean joined, double salary, int weeklyFractionalHours) {
+     public FullTimeStaff(int vacancyNumber, String designation, String jobType, String staffName, String joinDate, String qualification, String appointedBy, boolean joined, int weeklyFractionalHours) {
          super(vacancyNumber, designation, jobType, staffName, joinDate, qualification, appointedBy, joined);
          this.weeklyFractionalHours = weeklyFractionalHours;
      }
